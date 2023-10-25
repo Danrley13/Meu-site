@@ -7,7 +7,7 @@ body{
     width: 100%; /*comprimento*/
     display: flex;
     justify-content: center;
-    background: linear-gradient(#75e0fb, #bbb9b4); /*fundo do corpo*/
+    background: linear-gradient(#87d0fa, #bbb9b4); /*fundo do corpo*/
     background-repeat: no-repeat;
 
 }
@@ -76,4 +76,65 @@ body{
     width: 125px;
     background-color: rgb(224, 232, 234);
 }
+
+.texto {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    width: 500px;
+    height: 100px;
+    padding: 25px;
+    border-radius: 10px;
+    color: rgb(210, 241, 250);
+    background-color: rgb(17, 17, 23);
+    overflow: hidden;
+    box-shadow: 5px 3px 100px rgb(241, 237, 237);
+
+}
+.sobre-mim {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 30px;
+    line-height: 35px;
+
+}
+.subtitulo {
+    font-weight: 100px;
+    display: flex;
+    justify-content: center;
+    font-weight: 450;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 11, 18);
+    margin top: 100px;
+    margin-bottom: 50px;
+
+}
+.linguagem{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.linguagem .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(17, 17, 23);
+    margin: 5px;
+    
+}
+
 
