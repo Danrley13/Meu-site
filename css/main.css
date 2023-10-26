@@ -104,19 +104,19 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
     text-align: center;
-    font-weight: 30px;
+    font-weight: 35px;
     line-height: 35px;
 
 }
 .subtitulo {
-    font-weight: 100px;
+    font-weight: 100;
     display: flex;
     justify-content: center;
     font-weight: 450;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(3, 11, 18);
-    margin top: 100px;
+    margin-top: 100px;
     margin-bottom: 50px;
 
 }
@@ -126,7 +126,7 @@ body{
     
 
 }
-.linguagem .img{
+.linguagem img{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,5 +136,50 @@ body{
     margin: 5px;
     
 }
+.projetos{
+    margin-top: 100px;
+    flex-direction: column;
+
+}
+.item{
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: beige;
+    background: rgb(3, 26, 88);
+    box-shadow: 2px 5px 2px rgba(29, 38, 37, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.item:hover{
+    transition: 0.3s;
+    background: rgb(203, 67, 67);
+}
+.video{
+    padding: 15px;
+    margin: auto;
+    display: none;
+}
+.video:active{
+    display: block;
+}
+footer p{
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+@media
 
 
