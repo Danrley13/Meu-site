@@ -114,7 +114,7 @@ body{
     justify-content: center;
     font-weight: 450;
     font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(3, 11, 18);
     margin-top: 100px;
     margin-bottom: 50px;
@@ -178,8 +178,76 @@ footer p{
     color: blue;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    /*FIM CSS DESKTOP*/
 
 }
-@media
+/*Recurdo para renderizar o conteudo do site e adapte para diversos dispositivos Moveis ou resoluções */
+@media (max-width: 700px){
+    .imagem img{
+        width: 140px;
+        margin-top: 25px;
+    }
+    .texto{
+        width: 300px;
+        height: 700px;
+
+    }
+    .linguagem img{
+        width: 180px;
+
+    }
+    .subtitulo{
+        font-size: 30px;
+    }
+    .item{
+        width: 350px;
+    }
+    .video{
+        width: 250px;
+    }
+    
+}
+/*Fim Resolução 700px */
+    /* resolução para Smartphone */
+    @media (max-width: 500px){
+        .imagem img {
+            width: 100px;
+            margin-top: 30px;
+
+        }
+        .nome{
+            font-size: 25px;
+        }
+        .texto{
+            margin-top: 50px;
+            width: 400px;
+            height: 620px;
+            padding: 30px;
+
+        }
+        .sobre-mim{
+            font-size: 30px;
+        }
+        p{
+            font-size: 17px;
+        }
+        .subtitulo{
+            font-size: 30px;
+
+        }
+        .item{
+            width: 260px;
+            height: 40px;
+            margin-top: 15px;
+
+        }
+        .video {
+            width: 250px;
+            height: 160px;
+        }
+
+    }
+
+
 
 
