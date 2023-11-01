@@ -45,7 +45,7 @@ body{
     display: flex;
     height: 35px;
     width: 35px;
-    transition: all o.3s ease-in-out;
+    transition: all 0.70s ease-in-out;
     border-radius: 35px;
     box-shadow: 0 5px 5px rgba(0, 0, .1);
     margin: 3px;
@@ -181,7 +181,7 @@ footer p{
     /*FIM CSS DESKTOP*/
 
 }
-/*Recurdo para renderizar o conteudo do site e adapte para diversos dispositivos Moveis ou resoluções */
+/*Recurso para renderizar o conteudo do site e adapte para diversos dispositivos Moveis ou resoluções */
 @media (max-width: 700px){
     .imagem img{
         width: 140px;
